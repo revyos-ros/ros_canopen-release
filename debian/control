@@ -1,0 +1,12 @@
+Source: ros-jazzy-can-msgs
+Section: misc
+Priority: optional
+Maintainer: Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: http://wiki.ros.org/can_msgs
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-can-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: CAN related message types.
