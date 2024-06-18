@@ -1,0 +1,102 @@
+ros-jazzy-can-msgs (2.0.0-7bookworm) bookworm; urgency=high
+
+  * port can_msgs to ROS2
+  * Contributors: Joshua Whitley, Mathias Lüdtke
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Mon, 04 Nov 2019 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.8.2-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Sun, 03 Nov 2019 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.8.1-7bookworm) bookworm; urgency=high
+
+  * Set C++ standard to c++14
+  * Contributors: Harsh Deshpande
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Sat, 13 Jul 2019 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.8.0-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Tue, 10 Jul 2018 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.8-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Thu, 03 May 2018 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.7-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Thu, 03 May 2018 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.6-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Tue, 29 Aug 2017 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.5-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Sun, 28 May 2017 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.4-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Mon, 24 Apr 2017 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.3-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Mon, 24 Apr 2017 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.2-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Mon, 27 Mar 2017 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.1-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Sun, 19 Mar 2017 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.7.0-7bookworm) bookworm; urgency=high
+
+
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Mon, 12 Dec 2016 16:00:00 -0000
+
+ros-jazzy-can-msgs (0.6.5-7bookworm) bookworm; urgency=high
+
+  * hamonized versions
+  * styled and sorted CMakeLists.txt
+    * removed boilerplate comments
+    * indention
+    * reviewed exported dependencies
+  * styled and sorted package.xml
+  * Adds message_runtime to can_msgs dependencies.
+    Added the missing dependency, also changes message_generation to a build_depend.
+  * Finalizes work on the socketcan_bridge and can_msgs.
+    Readies the packages socketcan_bridge and can_msgs for the merge with ros_canopen.
+    Bumps the version for both packages to 0.1.0. Final cleanup in CMakeLists, added
+    comments to the shell script and launchfile used for testing.
+  * Introduces the can_msgs package for message types.
+    Package to hold CAN message types, the Frame message type can contain the data
+    as returned by SocketCAN.
+  * Contributors: Ivor Wanders, Mathias Lüdtke
+
+ -- Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>  Fri, 09 Dec 2016 16:00:00 -0000
+
+
